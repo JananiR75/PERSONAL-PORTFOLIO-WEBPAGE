@@ -36,4 +36,6 @@ Overall, the personal portfolio is a must-have project for any aspiring web deve
 
 # OUTPUT
 
+![Image](https://github.com/user-attachments/assets/86ca81e6-5caf-4e6a-85ae-4fb3b4d126dc)
+
 

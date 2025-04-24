@@ -1,0 +1,103 @@
+/* General Styles */
+body {
+    background-color: rgb(27, 24, 24); /* Sets the background to black */
+    color: white; /* Changes text color to white for better visibility */
+    font-family: 'Poppins', sans-serif; /* Uses a clean and modern font */
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #222; /* Dark gray navbar */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white; /* White text for visibility */
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Sections */
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+/* Projects */
+.project {
+    background-color: white; /* White background for the project box */
+    color: black; /* Black text for readability */
+    padding: 20px;
+    margin: 10px auto; /* Reduced gap between project boxes */
+    width: 80%;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Subtle white glow */
+    border-radius: 8px; /* Smooth rounded corners */
+    text-align: left; /* Align text properly */
+}
+
+/* Editable Project Description */
+.project-description {
+    width: 100%;
+    height: 100px; /* Set a fixed height */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 1.6;
+    resize: vertical; /* Allows resizing */
+    background-color: white; /* Keeps it visible */
+    color: black; /* Ensures text is readable */
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input, form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #fffefe;
+    border-radius: 5px;
+    background-color: #222; /* Dark input fields */
+    color: white; /* White text inside the inputs */
+}
+
+/* Button Styles */
+button {
+    background-color: #555; /* Medium gray */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #777; /* Lighter gray when hovered */
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
